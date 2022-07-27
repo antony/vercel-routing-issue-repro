@@ -4,7 +4,7 @@
   },
   "rewrites": [
     {
-      "source": "/rewrite-one/:match",
+      "source": "/rewrite-one/:match*",
       "destination": "https://example.com/:match*"
     },
     {
