@@ -1,0 +1,30 @@
+{
+  "github": {
+    "enabled": false
+  },
+  "rewrites": [
+    {
+      "source": "/rewrite-one/:match",
+      "destination": "https://example.com/:match*"
+    },
+    {
+      "source": "/rewrite-two/:match*",
+      "destination": "https://svelte.dev/:match*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/redirect-one",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/redirect-two",
+      "destination": "/",
+      "permanent": false
+    }
+  ],
+  "regions": [
+    "lhr1"
+  ]
+}
